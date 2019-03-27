@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Vote.DAL\Vote.DAL.csproj" />
+    <ProjectReference Include="..\Vote.Models\Vote.Models.csproj" />
+  </ItemGroup>
+
+</Project>
